@@ -1,6 +1,6 @@
 set serveroutput on;
 define editor=Notepad;
-set serveroutput on size unlimited;
+set serveroutput on size unlimited;/*включить вывод команд SQL*Plus*/
 set trimspool on;
 set long 5000;
 set linesize 100;
