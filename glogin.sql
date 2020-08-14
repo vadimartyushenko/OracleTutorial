@@ -1,10 +1,9 @@
-set serveroutput on;
-define editor=Notepad;
-set serveroutput on size unlimited;/*включить вывод команд SQL*Plus*/
+define editor=Notepad;/*Замена внешнего текстового редактора*/
+set serveroutput on size unlimited;/*включить вывод сообщений DBMS_OUTPUT*/
 set trimspool on;
 set long 5000;
-set linesize 100;
-set pagesize 9999;
-column plan_plus_exp format a80;
+set linesize 132;/*Ширина выводимой строки в символах*/
+set pagesize 999;/*Количество строк выходных данных инструкции SELECT перед повторным выводом заголовков*/
+column plan_plus_exp format a80;/*Форматирование столбцов, извлекаемых из словаря данных*/
 --настройка строки приглашения на ввод команд SQL*Plus (строка приобретает вид имя_пользователя@идентификатор_подключения)
 set sqlprompt '&_user.@&_connect_identifier.>';
