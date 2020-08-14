@@ -1,3 +1,4 @@
+/*файл должен располагаться $ORACLE_HOME/sqlplus/admin/glogin.sql*/
 define editor=Notepad;/*Замена внешнего текстового редактора*/
 set serveroutput on size unlimited;/*включить вывод сообщений DBMS_OUTPUT*/
 set trimspool on;
