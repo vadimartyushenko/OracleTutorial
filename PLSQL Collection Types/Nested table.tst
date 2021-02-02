@@ -1,3 +1,8 @@
+------------------------------------------------------------
+SQL> CREATE TYPE list_of_names_t IS TABLE OF VARCHAR2 (100);
+2 /
+Type created.
+-----------------------------------------------------------
 DECLARE
   happyfamily list_of_names_t := list_of_names_t ();
   children list_of_names_t := list_of_names_t ();
