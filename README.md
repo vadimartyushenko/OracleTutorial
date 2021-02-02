@@ -7,3 +7,4 @@
 **demobld.sql**       | Создает и заполняет таблицы EMP и DEPT
 **autotrace_customization.sql**       | Настройки AUTOTRACE
 **wordcount.fnc**       | Функция для подсчета количества слов во входной строке
+**PLSQL Collection Types**       | Тестовые скрипты для изучения коллекций Oracle
